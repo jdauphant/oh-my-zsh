@@ -7,7 +7,7 @@ fi
 
 PROMPT='$(git_prompt_info)$(hg_prompt_info)%{$fg[$CARETCOLOR]%}$PROMPT_CHAR '
 # RPS1='%{$fg[blue]%}%~%{$reset_color%} '
-RPS1='%{$fg[white]%}%2~ %{$fg_bold[blue]%}%n@%m%{$reset_color%}'
+RPS1='%{$fg[white]%}%7~ %{$fg_bold[blue]%}%n@%m%{$reset_color%}'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[yellow]%}[git:"
 ZSH_THEME_GIT_PROMPT_SUFFIX="]%{$reset_color%}"
